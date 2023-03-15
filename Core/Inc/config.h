@@ -47,7 +47,7 @@
 #define GEAR_RATIO 11 //15 for original M365 motor
 
 // speed limits for invividual modes in kph
-#define SPEEDLIMIT_ECO 6
+#define SPEEDLIMIT_ECO 15
 #define SPEEDLIMIT_NORMAL 20
 #define SPEEDLIMIT_SPORT 50
 
@@ -63,8 +63,8 @@
 #define FW_CURRENT_MAX 18000 //max id
 
 // maximum battery currents in mA
-#define BATTERYCURRENT_MAX 14500
-#define REGEN_CURRENT_MAX 10000
+#define BATTERYCURRENT_MAX 27500
+#define REGEN_CURRENT_MAX 15000
 
 // battery voltage limits in mV
 #define BATTERYVOLTAGE_MIN 33000
